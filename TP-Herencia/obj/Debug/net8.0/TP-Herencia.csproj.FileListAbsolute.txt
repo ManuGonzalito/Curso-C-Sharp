@@ -1,0 +1,15 @@
+/home/manu/study/curso_C#/TP-Herencia/bin/Debug/net8.0/TP-Herencia
+/home/manu/study/curso_C#/TP-Herencia/bin/Debug/net8.0/TP-Herencia.deps.json
+/home/manu/study/curso_C#/TP-Herencia/bin/Debug/net8.0/TP-Herencia.runtimeconfig.json
+/home/manu/study/curso_C#/TP-Herencia/bin/Debug/net8.0/TP-Herencia.dll
+/home/manu/study/curso_C#/TP-Herencia/bin/Debug/net8.0/TP-Herencia.pdb
+/home/manu/study/curso_C#/TP-Herencia/obj/Debug/net8.0/TP-Herencia.GeneratedMSBuildEditorConfig.editorconfig
+/home/manu/study/curso_C#/TP-Herencia/obj/Debug/net8.0/TP-Herencia.AssemblyInfoInputs.cache
+/home/manu/study/curso_C#/TP-Herencia/obj/Debug/net8.0/TP-Herencia.AssemblyInfo.cs
+/home/manu/study/curso_C#/TP-Herencia/obj/Debug/net8.0/TP-Herencia.csproj.CoreCompileInputs.cache
+/home/manu/study/curso_C#/TP-Herencia/obj/Debug/net8.0/TP-Herencia.sourcelink.json
+/home/manu/study/curso_C#/TP-Herencia/obj/Debug/net8.0/TP-Herencia.dll
+/home/manu/study/curso_C#/TP-Herencia/obj/Debug/net8.0/refint/TP-Herencia.dll
+/home/manu/study/curso_C#/TP-Herencia/obj/Debug/net8.0/TP-Herencia.pdb
+/home/manu/study/curso_C#/TP-Herencia/obj/Debug/net8.0/TP-Herencia.genruntimeconfig.cache
+/home/manu/study/curso_C#/TP-Herencia/obj/Debug/net8.0/ref/TP-Herencia.dll
