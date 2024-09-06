@@ -2,6 +2,7 @@
 Caballo Babieca = new Caballo("Babieca");
 Humano Juan = new Humano("Juan");
 Gorila Copito = new Gorila("Copito");
+Ballena Willy = new Ballena("Willy");
 
 Mamiferos[] almacenAnimales = new Mamiferos[3];
 
@@ -10,53 +11,75 @@ almacenAnimales[1] = Juan;
 almacenAnimales[2] = Copito;
 
 for (int i = 0; i < 3; i++){
-    almacenAnimales[i].pensar();
+    almacenAnimales[i].Pensar();
 }
 
+Willy.Nadar();
+Console.WriteLine("Numero de patas que tiene mi caballo Babieca" + Babieca.NumeroPatas());
+
+interface IMamiferosTerrestres{
+    int NumeroPatas();
+}
 
 class Mamiferos{
-    public Mamiferos(String nombre){
+    public Mamiferos(string nombre){
         nombreSerVivo = nombre;
     }
-    public void respirar(){
+    public void Respirar(){
         Console.WriteLine("Respirar");
     }
 
-    public void cuidarCrias(){
+    public void CuidarCrias(){
         Console.WriteLine("Cuido de mis crias hasta que se valgan por si solas");
     } 
-    public void getNombre(){
+    public void GetNombre(){
         Console.WriteLine("El nombre del ser vivo es: " + nombreSerVivo);
     }   
-    public virtual void pensar(){
+    public virtual void Pensar(){
         Console.WriteLine("Pensamiento básico instintivo");
     }
     private string nombreSerVivo;
 }
 
-class Caballo : Mamiferos {
+class Caballo : Mamiferos, IMamiferosTerrestres {
     public Caballo(string nombreCaballo) : base(nombreCaballo){
     }
-    public void galopar(){
+    public void Galopar(){
         Console.WriteLine("Soy capaz de Galopar");
+    }
+
+    public int NumeroPatas(){
+        return 4;
     }
 }
 
 class Humano : Mamiferos {
     public Humano(string nombreHumano) : base(nombreHumano){
     }
-    public override void pensar(){
+    public override void Pensar(){
         Console.WriteLine("Soy capaz de Pensar ¿?");
     }
 }
 
-class Gorila : Mamiferos {
+class Gorila : Mamiferos, IMamiferosTerrestres {
     public Gorila(string nombreGorila) : base(nombreGorila){
     }
-    public override void pensar(){
+    public override void Pensar(){
         Console.WriteLine("Pensamiento instintivo avanzado");
     }
-    public void trepar(){
+    public void Trepar(){
         Console.WriteLine("Soy capaz de Trepar");
+    }
+
+    public int NumeroPatas(){
+        return 2;
+    }
+}
+
+class Ballena : Mamiferos{
+    public Ballena(string nombreBallena) : base(nombreBallena){
+    }
+    public void Nadar(){
+        Console.WriteLine("Soy capaz de Nadar");
     }
 }
