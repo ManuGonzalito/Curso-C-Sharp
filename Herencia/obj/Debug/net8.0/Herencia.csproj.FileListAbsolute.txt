@@ -12,3 +12,4 @@
 /home/manu/study/curso_C#/Herencia/obj/Debug/net8.0/Herencia.pdb
 /home/manu/study/curso_C#/Herencia/obj/Debug/net8.0/Herencia.genruntimeconfig.cache
 /home/manu/study/curso_C#/Herencia/obj/Debug/net8.0/ref/Herencia.dll
+/home/manu/study/curso_C#/Herencia/obj/Debug/net8.0/Herencia.sourcelink.json

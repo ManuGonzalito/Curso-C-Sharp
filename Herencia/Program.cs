@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 Caballo Babieca = new Caballo("Babieca");
+ISaltoConPatas ImiBabieca = Babieca;
 Humano Juan = new Humano("Juan");
 Gorila Copito = new Gorila("Copito");
 Ballena Willy = new Ballena("Willy");
@@ -15,9 +16,18 @@ for (int i = 0; i < 3; i++){
 }
 
 Willy.Nadar();
-Console.WriteLine("Numero de patas que tiene mi caballo Babieca" + Babieca.NumeroPatas());
+Console.WriteLine("Patas utilizadas en el salto de Babieca " + ImiBabieca.NumeroPatas());
 
 interface IMamiferosTerrestres{
+    int NumeroPatas();
+}
+
+interface IAnimalesYDeportes{
+    string TipoDeporte();
+    Boolean esOlimpico();
+}
+
+interface ISaltoConPatas{
     int NumeroPatas();
 }
 
@@ -41,15 +51,23 @@ class Mamiferos{
     private string nombreSerVivo;
 }
 
-class Caballo : Mamiferos, IMamiferosTerrestres {
+class Caballo : Mamiferos, IMamiferosTerrestres, IAnimalesYDeportes, ISaltoConPatas {
     public Caballo(string nombreCaballo) : base(nombreCaballo){
     }
     public void Galopar(){
         Console.WriteLine("Soy capaz de Galopar");
     }
-
-    public int NumeroPatas(){
+    int IMamiferosTerrestres.NumeroPatas(){
         return 4;
+    }
+    int ISaltoConPatas.NumeroPatas(){
+        return 2;
+    }
+    public string TipoDeporte(){
+        return "Hípica";
+    }
+    public Boolean esOlimpico(){
+        return true;
     }
 }
 
