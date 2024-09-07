@@ -1,0 +1,15 @@
+/home/manu/study/curso_C#/AvisosVarios/bin/Debug/net8.0/AvisosVarios
+/home/manu/study/curso_C#/AvisosVarios/bin/Debug/net8.0/AvisosVarios.deps.json
+/home/manu/study/curso_C#/AvisosVarios/bin/Debug/net8.0/AvisosVarios.runtimeconfig.json
+/home/manu/study/curso_C#/AvisosVarios/bin/Debug/net8.0/AvisosVarios.dll
+/home/manu/study/curso_C#/AvisosVarios/bin/Debug/net8.0/AvisosVarios.pdb
+/home/manu/study/curso_C#/AvisosVarios/obj/Debug/net8.0/AvisosVarios.GeneratedMSBuildEditorConfig.editorconfig
+/home/manu/study/curso_C#/AvisosVarios/obj/Debug/net8.0/AvisosVarios.AssemblyInfoInputs.cache
+/home/manu/study/curso_C#/AvisosVarios/obj/Debug/net8.0/AvisosVarios.AssemblyInfo.cs
+/home/manu/study/curso_C#/AvisosVarios/obj/Debug/net8.0/AvisosVarios.csproj.CoreCompileInputs.cache
+/home/manu/study/curso_C#/AvisosVarios/obj/Debug/net8.0/AvisosVarios.sourcelink.json
+/home/manu/study/curso_C#/AvisosVarios/obj/Debug/net8.0/AvisosVarios.dll
+/home/manu/study/curso_C#/AvisosVarios/obj/Debug/net8.0/refint/AvisosVarios.dll
+/home/manu/study/curso_C#/AvisosVarios/obj/Debug/net8.0/AvisosVarios.pdb
+/home/manu/study/curso_C#/AvisosVarios/obj/Debug/net8.0/AvisosVarios.genruntimeconfig.cache
+/home/manu/study/curso_C#/AvisosVarios/obj/Debug/net8.0/ref/AvisosVarios.dll
