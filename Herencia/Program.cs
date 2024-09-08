@@ -1,22 +1,27 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Caballo Babieca = new Caballo("Babieca");
-ISaltoConPatas ImiBabieca = Babieca;
+// Caballo Babieca = new Caballo("Babieca");
+// ISaltoConPatas ImiBabieca = Babieca;
 Humano Juan = new Humano("Juan");
-Gorila Copito = new Gorila("Copito");
-Ballena Willy = new Ballena("Willy");
+// Gorila Copito = new Gorila("Copito");
+// Ballena Willy = new Ballena("Willy");
 
-Mamiferos[] almacenAnimales = new Mamiferos[3];
+// Mamiferos[] almacenAnimales = new Mamiferos[3];
 
-almacenAnimales[0] = Babieca;
-almacenAnimales[1] = Juan;
-almacenAnimales[2] = Copito;
+// almacenAnimales[0] = Babieca;
+// almacenAnimales[1] = Juan;
+// almacenAnimales[2] = Copito;
 
-for (int i = 0; i < 3; i++){
-    almacenAnimales[i].Pensar();
-}
+// for (int i = 0; i < 3; i++){
+//     almacenAnimales[i].Pensar();
+// }
 
-Willy.Nadar();
-Console.WriteLine("Patas utilizadas en el salto de Babieca " + ImiBabieca.NumeroPatas());
+// Willy.Nadar();
+// Console.WriteLine("Patas utilizadas en el salto de Babieca " + ImiBabieca.NumeroPatas());
+
+Lagartija Juancho = new Lagartija("Juancho");
+
+Juancho.GetNombre();
+Juan.GetNombre();
 
 interface IMamiferosTerrestres{
     int NumeroPatas();
@@ -31,19 +36,36 @@ interface ISaltoConPatas{
     int NumeroPatas();
 }
 
-class Mamiferos{
+abstract class Animales
+{
+    public void Respirar(){
+        Console.WriteLine("Soy capaz de respirar");
+    }
+
+    public abstract void GetNombre();
+}
+
+class Lagartija : Animales
+{
+    String nombreReptil;
+    public Lagartija(string nombre)
+    {
+        nombreReptil = nombre;
+    }
+    public override void GetNombre(){
+        Console.WriteLine("El nombre del reptil es: " + nombreReptil);
+    }
+}
+
+class Mamiferos : Animales{
     public Mamiferos(string nombre){
         nombreSerVivo = nombre;
     }
-    public void Respirar(){
-        Console.WriteLine("Respirar");
-    }
-
     public void CuidarCrias(){
         Console.WriteLine("Cuido de mis crias hasta que se valgan por si solas");
     } 
-    public void GetNombre(){
-        Console.WriteLine("El nombre del ser vivo es: " + nombreSerVivo);
+    public override void GetNombre(){
+        Console.WriteLine("El nombre del mamífero es: " + nombreSerVivo);
     }   
     public virtual void Pensar(){
         Console.WriteLine("Pensamiento básico instintivo");

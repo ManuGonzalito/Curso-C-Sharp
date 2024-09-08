@@ -1,0 +1,15 @@
+/home/manu/study/curso_C#/Structs y Enum/bin/Debug/net8.0/Structs y Enum
+/home/manu/study/curso_C#/Structs y Enum/bin/Debug/net8.0/Structs y Enum.deps.json
+/home/manu/study/curso_C#/Structs y Enum/bin/Debug/net8.0/Structs y Enum.runtimeconfig.json
+/home/manu/study/curso_C#/Structs y Enum/bin/Debug/net8.0/Structs y Enum.dll
+/home/manu/study/curso_C#/Structs y Enum/bin/Debug/net8.0/Structs y Enum.pdb
+/home/manu/study/curso_C#/Structs y Enum/obj/Debug/net8.0/Structs y Enum.GeneratedMSBuildEditorConfig.editorconfig
+/home/manu/study/curso_C#/Structs y Enum/obj/Debug/net8.0/Structs y Enum.AssemblyInfoInputs.cache
+/home/manu/study/curso_C#/Structs y Enum/obj/Debug/net8.0/Structs y Enum.AssemblyInfo.cs
+/home/manu/study/curso_C#/Structs y Enum/obj/Debug/net8.0/Structs y Enum.csproj.CoreCompileInputs.cache
+/home/manu/study/curso_C#/Structs y Enum/obj/Debug/net8.0/Structs y Enum.sourcelink.json
+/home/manu/study/curso_C#/Structs y Enum/obj/Debug/net8.0/Structs y Enum.dll
+/home/manu/study/curso_C#/Structs y Enum/obj/Debug/net8.0/refint/Structs y Enum.dll
+/home/manu/study/curso_C#/Structs y Enum/obj/Debug/net8.0/Structs y Enum.pdb
+/home/manu/study/curso_C#/Structs y Enum/obj/Debug/net8.0/Structs y Enum.genruntimeconfig.cache
+/home/manu/study/curso_C#/Structs y Enum/obj/Debug/net8.0/ref/Structs y Enum.dll

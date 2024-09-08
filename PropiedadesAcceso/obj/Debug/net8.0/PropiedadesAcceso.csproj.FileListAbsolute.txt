@@ -1,0 +1,15 @@
+/home/manu/study/curso_C#/PropiedadesAcceso/bin/Debug/net8.0/PropiedadesAcceso
+/home/manu/study/curso_C#/PropiedadesAcceso/bin/Debug/net8.0/PropiedadesAcceso.deps.json
+/home/manu/study/curso_C#/PropiedadesAcceso/bin/Debug/net8.0/PropiedadesAcceso.runtimeconfig.json
+/home/manu/study/curso_C#/PropiedadesAcceso/bin/Debug/net8.0/PropiedadesAcceso.dll
+/home/manu/study/curso_C#/PropiedadesAcceso/bin/Debug/net8.0/PropiedadesAcceso.pdb
+/home/manu/study/curso_C#/PropiedadesAcceso/obj/Debug/net8.0/PropiedadesAcceso.GeneratedMSBuildEditorConfig.editorconfig
+/home/manu/study/curso_C#/PropiedadesAcceso/obj/Debug/net8.0/PropiedadesAcceso.AssemblyInfoInputs.cache
+/home/manu/study/curso_C#/PropiedadesAcceso/obj/Debug/net8.0/PropiedadesAcceso.AssemblyInfo.cs
+/home/manu/study/curso_C#/PropiedadesAcceso/obj/Debug/net8.0/PropiedadesAcceso.csproj.CoreCompileInputs.cache
+/home/manu/study/curso_C#/PropiedadesAcceso/obj/Debug/net8.0/PropiedadesAcceso.sourcelink.json
+/home/manu/study/curso_C#/PropiedadesAcceso/obj/Debug/net8.0/PropiedadesAcceso.dll
+/home/manu/study/curso_C#/PropiedadesAcceso/obj/Debug/net8.0/refint/PropiedadesAcceso.dll
+/home/manu/study/curso_C#/PropiedadesAcceso/obj/Debug/net8.0/PropiedadesAcceso.pdb
+/home/manu/study/curso_C#/PropiedadesAcceso/obj/Debug/net8.0/PropiedadesAcceso.genruntimeconfig.cache
+/home/manu/study/curso_C#/PropiedadesAcceso/obj/Debug/net8.0/ref/PropiedadesAcceso.dll
