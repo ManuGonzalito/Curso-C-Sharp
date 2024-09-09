@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Structs y Enum")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Destructores")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+33e991403d806d477d7af4ba5ba7a5077a956df6")]
-[assembly: System.Reflection.AssemblyProductAttribute("Structs y Enum")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Structs y Enum")]
+[assembly: System.Reflection.AssemblyProductAttribute("Destructores")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Destructores")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.

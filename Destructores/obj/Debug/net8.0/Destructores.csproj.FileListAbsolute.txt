@@ -1,0 +1,15 @@
+/home/manu/study/curso_C#/Destructores/bin/Debug/net8.0/Destructores
+/home/manu/study/curso_C#/Destructores/bin/Debug/net8.0/Destructores.deps.json
+/home/manu/study/curso_C#/Destructores/bin/Debug/net8.0/Destructores.runtimeconfig.json
+/home/manu/study/curso_C#/Destructores/bin/Debug/net8.0/Destructores.dll
+/home/manu/study/curso_C#/Destructores/bin/Debug/net8.0/Destructores.pdb
+/home/manu/study/curso_C#/Destructores/obj/Debug/net8.0/Destructores.GeneratedMSBuildEditorConfig.editorconfig
+/home/manu/study/curso_C#/Destructores/obj/Debug/net8.0/Destructores.AssemblyInfoInputs.cache
+/home/manu/study/curso_C#/Destructores/obj/Debug/net8.0/Destructores.AssemblyInfo.cs
+/home/manu/study/curso_C#/Destructores/obj/Debug/net8.0/Destructores.csproj.CoreCompileInputs.cache
+/home/manu/study/curso_C#/Destructores/obj/Debug/net8.0/Destructores.sourcelink.json
+/home/manu/study/curso_C#/Destructores/obj/Debug/net8.0/Destructores.dll
+/home/manu/study/curso_C#/Destructores/obj/Debug/net8.0/refint/Destructores.dll
+/home/manu/study/curso_C#/Destructores/obj/Debug/net8.0/Destructores.pdb
+/home/manu/study/curso_C#/Destructores/obj/Debug/net8.0/Destructores.genruntimeconfig.cache
+/home/manu/study/curso_C#/Destructores/obj/Debug/net8.0/ref/Destructores.dll
