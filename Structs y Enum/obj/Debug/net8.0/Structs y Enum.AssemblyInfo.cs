@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Structs y Enum")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+108b133c97c668d2607002c16cdded223fafbf3d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7587fb0e391d952b2e1e995350dc2f81d9057990")]
 [assembly: System.Reflection.AssemblyProductAttribute("Structs y Enum")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Structs y Enum")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
