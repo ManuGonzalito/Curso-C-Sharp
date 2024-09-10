@@ -1,0 +1,15 @@
+/home/manu/study/curso_C#/Genericos/bin/Debug/net8.0/Genericos
+/home/manu/study/curso_C#/Genericos/bin/Debug/net8.0/Genericos.deps.json
+/home/manu/study/curso_C#/Genericos/bin/Debug/net8.0/Genericos.runtimeconfig.json
+/home/manu/study/curso_C#/Genericos/bin/Debug/net8.0/Genericos.dll
+/home/manu/study/curso_C#/Genericos/bin/Debug/net8.0/Genericos.pdb
+/home/manu/study/curso_C#/Genericos/obj/Debug/net8.0/Genericos.GeneratedMSBuildEditorConfig.editorconfig
+/home/manu/study/curso_C#/Genericos/obj/Debug/net8.0/Genericos.AssemblyInfoInputs.cache
+/home/manu/study/curso_C#/Genericos/obj/Debug/net8.0/Genericos.AssemblyInfo.cs
+/home/manu/study/curso_C#/Genericos/obj/Debug/net8.0/Genericos.csproj.CoreCompileInputs.cache
+/home/manu/study/curso_C#/Genericos/obj/Debug/net8.0/Genericos.sourcelink.json
+/home/manu/study/curso_C#/Genericos/obj/Debug/net8.0/Genericos.dll
+/home/manu/study/curso_C#/Genericos/obj/Debug/net8.0/refint/Genericos.dll
+/home/manu/study/curso_C#/Genericos/obj/Debug/net8.0/Genericos.pdb
+/home/manu/study/curso_C#/Genericos/obj/Debug/net8.0/Genericos.genruntimeconfig.cache
+/home/manu/study/curso_C#/Genericos/obj/Debug/net8.0/ref/Genericos.dll
