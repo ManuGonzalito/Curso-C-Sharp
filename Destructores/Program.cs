@@ -4,7 +4,7 @@ miArchivo.mensaje();
 
 class ManejoArchivos
 {
-    StreamReader? archivo = null;
+    StreamReader archivo;
     int contador = 0;
     string? linea;
     
