@@ -1,0 +1,15 @@
+/home/manu/study/curso_C#/DelegadosPredicadosLambdas/bin/Debug/net8.0/DelegadosPredicadosLambdas
+/home/manu/study/curso_C#/DelegadosPredicadosLambdas/bin/Debug/net8.0/DelegadosPredicadosLambdas.deps.json
+/home/manu/study/curso_C#/DelegadosPredicadosLambdas/bin/Debug/net8.0/DelegadosPredicadosLambdas.runtimeconfig.json
+/home/manu/study/curso_C#/DelegadosPredicadosLambdas/bin/Debug/net8.0/DelegadosPredicadosLambdas.dll
+/home/manu/study/curso_C#/DelegadosPredicadosLambdas/bin/Debug/net8.0/DelegadosPredicadosLambdas.pdb
+/home/manu/study/curso_C#/DelegadosPredicadosLambdas/obj/Debug/net8.0/DelegadosPredicadosLambdas.GeneratedMSBuildEditorConfig.editorconfig
+/home/manu/study/curso_C#/DelegadosPredicadosLambdas/obj/Debug/net8.0/DelegadosPredicadosLambdas.AssemblyInfoInputs.cache
+/home/manu/study/curso_C#/DelegadosPredicadosLambdas/obj/Debug/net8.0/DelegadosPredicadosLambdas.AssemblyInfo.cs
+/home/manu/study/curso_C#/DelegadosPredicadosLambdas/obj/Debug/net8.0/DelegadosPredicadosLambdas.csproj.CoreCompileInputs.cache
+/home/manu/study/curso_C#/DelegadosPredicadosLambdas/obj/Debug/net8.0/DelegadosPredicadosLambdas.sourcelink.json
+/home/manu/study/curso_C#/DelegadosPredicadosLambdas/obj/Debug/net8.0/DelegadosPredicadosLambdas.dll
+/home/manu/study/curso_C#/DelegadosPredicadosLambdas/obj/Debug/net8.0/refint/DelegadosPredicadosLambdas.dll
+/home/manu/study/curso_C#/DelegadosPredicadosLambdas/obj/Debug/net8.0/DelegadosPredicadosLambdas.pdb
+/home/manu/study/curso_C#/DelegadosPredicadosLambdas/obj/Debug/net8.0/DelegadosPredicadosLambdas.genruntimeconfig.cache
+/home/manu/study/curso_C#/DelegadosPredicadosLambdas/obj/Debug/net8.0/ref/DelegadosPredicadosLambdas.dll

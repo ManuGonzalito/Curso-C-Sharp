@@ -1,5 +1,5 @@
 ﻿
-// List<int> numeros = new List<int>(); //Declarar una coleccion del tipo List
+List<int> numerosList = new List<int>(); //Declarar una coleccion del tipo List
 
 // numeros.Add(5); //Agregar un elemento a la coleccion
 // numeros.Add(7);
@@ -39,70 +39,111 @@
 
 /* --------------------------------------------- */
 
-// Console.WriteLine("Introduce elementos en la colleccion (0 para terminar): ");
+Console.WriteLine("Introduce elementos en la colleccion (0 para terminar): ");
 
-// int elem = Int32.Parse(Console.ReadLine());
+int elem = Int32.Parse(Console.ReadLine());
 
-// while (elem != 0)
-// {
-//     numeros.Add(elem);
-//     elem = Int32.Parse(Console.ReadLine());
-// }
+while (elem != 0)
+{
+    numerosList.Add(elem);
+    elem = Int32.Parse(Console.ReadLine());
+}
 
-// Console.WriteLine("\nLos elementos de la lista son: ");
+Console.WriteLine("\nLos elementos de la lista son: ");
 
-// foreach (int num in numeros)
-// {
-//     Console.WriteLine(num);
-// }
+foreach (int num in numerosList)
+{
+    Console.WriteLine(num);
+}
 
 /* -------------------- LINKEDLIST ------------------------- */
 
-// LinkedList<int> numeros = new LinkedList<int>();
+LinkedList<int> numerosLinked = new LinkedList<int>();
 
-// foreach (int num in new int[] {10, 8, 6, 4, 2, 0}){
-//     numeros.AddLast(num);
-// }
+foreach (int num in new int[] {10, 8, 6, 4, 2, 0}){
+    numerosLinked.AddLast(num);
+}
 
-// numeros.Remove(6);
+numerosLinked.Remove(6);
 
-// LinkedListNode<int> nodoImportante = new LinkedListNode<int>(15);
+LinkedListNode<int> nodoImportante = new LinkedListNode<int>(15);
 
-// numeros.AddFirst(nodoImportante);
+numerosLinked.AddFirst(nodoImportante);
 
 // foreach normal
-// foreach (int numero in numeros){
-//     Console.WriteLine(numero);
-// }
+foreach (int numero in numerosLinked){
+    Console.WriteLine(numero);
+}
 
 // for con LinkedListNode
-// for(LinkedListNode<int> nodo = numeros.First; nodo != null; nodo = nodo.Next){
-//     int numero = nodo.Value;
-//     Console.WriteLine(numero);
-// }
+for(LinkedListNode<int> nodo = numerosLinked.First; nodo != null; nodo = nodo.Next){
+    int numero = nodo.Value;
+    Console.WriteLine(numero);
+}
 
 /* -------------------- QUEUE ------------------------- */
 
-Queue<int> numeros = new Queue<int>();
+Queue<int> numerosQueue = new Queue<int>();
 
-//Rellenando o agregando elementos a la cola
+// Rellenando o agregando elementos a la cola
 foreach (int num in new int[5] { 2, 4, 6, 8, 10 })
 {
-    numeros.Enqueue(num);
+    numerosQueue.Enqueue(num);
 }
 
-//recorriendo la cola
+// recorriendo la cola
 Console.WriteLine("Recorriendo el Queue: ");
-foreach (int num in numeros)
+foreach (int num in numerosQueue)
 {
     Console.WriteLine(num);
 }
 
-//Eliminando elementos de la cola
+// Eliminando elementos de la cola
 Console.WriteLine("Eliminando elemento...");
-numeros.Dequeue();
-foreach (int num in numeros)
+numerosQueue.Dequeue();
+foreach (int num in numerosQueue)
 {
     Console.WriteLine(num);
 }
 
+
+/* -------------------- STACK ------------------------- */
+
+Stack<int> numerosStack = new Stack<int>();
+
+foreach (int num in new int[5] { 2, 4, 6, 8, 10 })
+{
+    numerosStack.Push(num);
+}
+
+Console.WriteLine("Recorriendo el Stack: ");
+
+foreach (int num in numerosStack)
+{
+    Console.WriteLine(num);
+}
+
+Console.WriteLine("Eliminando elemento...");
+
+numerosStack.Pop();
+foreach (int num in numerosStack)
+{
+    Console.WriteLine(num);
+}
+
+/* -------------------- DICTIONARY ------------------------- */
+
+Dictionary<string, int> edades = new Dictionary<string, int>();
+
+//Rellena el diccionario
+edades.Add("Juan", 18);
+edades.Add("Diana", 35);
+
+edades["Maria"] = 25;
+edades["Antonio"] = 29;
+
+//Recorre el diccionario
+foreach (KeyValuePair<string, int> persona in edades)
+{
+    Console.WriteLine($"Nombre: {persona.Key}, Edad: {persona.Value}");
+}
