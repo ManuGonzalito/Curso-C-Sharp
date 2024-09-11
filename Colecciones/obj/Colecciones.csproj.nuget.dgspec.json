@@ -1,26 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\studying\\Curso-C-Sharp\\Colecciones\\Colecciones.csproj": {}
+    "/home/manu/study/curso_C#/Colecciones/Colecciones.csproj": {}
   },
   "projects": {
-    "C:\\studying\\Curso-C-Sharp\\Colecciones\\Colecciones.csproj": {
+    "/home/manu/study/curso_C#/Colecciones/Colecciones.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\studying\\Curso-C-Sharp\\Colecciones\\Colecciones.csproj",
+        "projectUniqueName": "/home/manu/study/curso_C#/Colecciones/Colecciones.csproj",
         "projectName": "Colecciones",
-        "projectPath": "C:\\studying\\Curso-C-Sharp\\Colecciones\\Colecciones.csproj",
-        "packagesPath": "C:\\Users\\manua\\.nuget\\packages\\",
-        "outputPath": "C:\\studying\\Curso-C-Sharp\\Colecciones\\obj\\",
+        "projectPath": "/home/manu/study/curso_C#/Colecciones/Colecciones.csproj",
+        "packagesPath": "/home/manu/.nuget/packages/",
+        "outputPath": "/home/manu/study/curso_C#/Colecciones/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\manua\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/manu/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -33,11 +32,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -59,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.108/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
