@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DelegadosPredicadosLambdas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bf5600abf7ea4e368f2e6fccb624f2e17ed7d655")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1ebc1a9a5baa526e07f93c3c3f41ac1f030e2f75")]
 [assembly: System.Reflection.AssemblyProductAttribute("DelegadosPredicadosLambdas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DelegadosPredicadosLambdas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
