@@ -24,7 +24,7 @@
         <Button Content="Dale 2" Margin="15" Width="115" HorizontalAlignment="Center" Click="Button_Click"/>
         <Button Content="Dale 3" Margin="15" Width="115" HorizontalAlignment="Right"/>
     </StackPanel>-->
-    <Grid>
+    <!--<Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"></ColumnDefinition>
             <ColumnDefinition Width="*"></ColumnDefinition>
@@ -65,5 +65,20 @@
             <Button Grid.Column="2" Grid.Row="0"> Boton 3b</Button>
             <Button Grid.Column="3" Grid.Row="0"> Boton 4b</Button>
         </Grid>        
+    </Grid>-->
+
+    <Grid>
+        <Button Height="150" Width="300" Content="Dalee!" Background="LightBlue">
+            <Button.Style>
+                <Style TargetType="Button">
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="FontSize" Value="25" />
+                            <Setter Property="Background" Value="LightGreen"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Button.Style>
+        </Button>
     </Grid>
 </Window>

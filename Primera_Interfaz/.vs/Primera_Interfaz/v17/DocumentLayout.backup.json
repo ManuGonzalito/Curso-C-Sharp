@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\studying\\Curso-C-Sharp\\Primera_Interfaz\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CCFED2E6-B8AF-4127-89F6-F532B2087D9C}|Primera_Interfaz.csproj|c:\\studying\\curso-c-sharp\\primera_interfaz\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CCFED2E6-B8AF-4127-89F6-F532B2087D9C}|Primera_Interfaz.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CCFED2E6-B8AF-4127-89F6-F532B2087D9C}|Primera_Interfaz.csproj|c:\\studying\\curso-c-sharp\\primera_interfaz\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{CCFED2E6-B8AF-4127-89F6-F532B2087D9C}|Primera_Interfaz.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCFED2E6-B8AF-4127-89F6-F532B2087D9C}|Primera_Interfaz.csproj|c:\\studying\\curso-c-sharp\\primera_interfaz\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCFED2E6-B8AF-4127-89F6-F532B2087D9C}|Primera_Interfaz.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,7 +26,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\studying\\Curso-C-Sharp\\Primera_Interfaz\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
@@ -38,13 +38,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\studying\\Curso-C-Sharp\\Primera_Interfaz\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
               "ToolTip": "C:\\studying\\Curso-C-Sharp\\Primera_Interfaz\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAswDYAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAADQAAAAAAAAAAAAswEIAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-13T02:05:00.418Z",
               "EditorCaption": ""

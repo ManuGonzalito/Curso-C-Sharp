@@ -50,20 +50,30 @@ namespace Primera_Interfaz
             
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            /*MessageBox.Show("Le has dado al Boton!");*/
-            Console.WriteLine("Le has dado al Boton 2");
-        }
+        //private void Button_Click(object sender, RoutedEventArgs e)
+        //{
+        //    /*MessageBox.Show("Le has dado al Boton!");*/
+        //    Console.WriteLine("Le has dado al Boton 2");
+        //}
 
         /*private void Panel_OnClick(object sender, RoutedEventArgs e)
         {
             Console.WriteLine("Le has dado al Panel/Stack");
         }*/
 
-        private void Panel_OnPreviewMouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        //private void Panel_OnPreviewMouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        //{
+        //    Console.WriteLine("Le has dado al Panel/Stack");
+        //}
+
+        public int MiProperty
         {
-            Console.WriteLine("Le has dado al Panel/Stack");
+            get { return (int)GetValue(MiDepencyProperty); }
+
+            set { SetValue(MiDepencyProperty, value); }
+
         }
-    }
+
+        public static readonly DependencyProperty MiDepencyProperty =
+            DependencyProperty.Register("MiProperty", typeof(int), typeof(MainWindow), new PropertyMetadata(0));
 }

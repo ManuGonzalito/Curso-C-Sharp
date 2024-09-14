@@ -8,24 +8,32 @@
     "net8.0": []
   },
   "packageFolders": {
-    "/home/manu/.nuget/packages/": {}
+    "C:\\Users\\manua\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/manu/study/curso_C#/Colecciones/Colecciones.csproj",
+      "projectUniqueName": "C:\\studying\\Curso-C-Sharp\\Colecciones\\Colecciones.csproj",
       "projectName": "Colecciones",
-      "projectPath": "/home/manu/study/curso_C#/Colecciones/Colecciones.csproj",
-      "packagesPath": "/home/manu/.nuget/packages/",
-      "outputPath": "/home/manu/study/curso_C#/Colecciones/obj/",
+      "projectPath": "C:\\studying\\Curso-C-Sharp\\Colecciones\\Colecciones.csproj",
+      "packagesPath": "C:\\Users\\manua\\.nuget\\packages\\",
+      "outputPath": "C:\\studying\\Curso-C-Sharp\\Colecciones\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/home/manu/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\manua\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -38,6 +46,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -59,7 +72,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.108/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
