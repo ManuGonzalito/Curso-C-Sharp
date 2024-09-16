@@ -67,7 +67,7 @@
         </Grid>        
     </Grid>-->
 
-    <Grid>
+    <!--<Grid>
         <Button Height="150" Width="300" Content="Dalee!" Background="LightBlue">
             <Button.Style>
                 <Style TargetType="Button">
@@ -80,5 +80,10 @@
                 </Style>
             </Button.Style>
         </Button>
-    </Grid>
+    </Grid>-->
+    <StackPanel>
+        <TextBox Width="100" Name="MiCuadro" Margin="160" Text="{Binding ElementName=MiSlider, 
+            Path=Value, Mode=TwoWay}"></TextBox>
+            <Slider Width="350" Name="MiSlider" Minimum="0" Maximum="100"/>
+    </StackPanel>
 </Window>

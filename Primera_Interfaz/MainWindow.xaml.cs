@@ -19,10 +19,10 @@ namespace Primera_Interfaz
         public MainWindow()
         {
             InitializeComponent();
-            
+
             //Grid miGrid = new Grid();
             //this.Content = miGrid;
-            
+
             //Button miButton = new Button();
             //miButton.Width = 150;
             //miButton.Height = 50;
@@ -35,19 +35,19 @@ namespace Primera_Interfaz
             //text1.Foreground= Brushes.Yellow;
             //text1.Text = "Click";
             //miWrap.Children.Add(text1);
-            
+
             //TextBlock text2 = new TextBlock();
             //text2.Text = "Enviar!";
             //miWrap.Children.Add(text2);
-            
+
             //TextBlock text3 = new TextBlock();
             //text3.Text = "Daleeeee";
             //miWrap.Children.Add(text3);
-            
+
             //miButton.Content = miWrap;
-            
+
             //miGrid.Children.Add(miButton);
-            
+
         }
 
         //private void Button_Click(object sender, RoutedEventArgs e)
@@ -66,14 +66,15 @@ namespace Primera_Interfaz
         //    Console.WriteLine("Le has dado al Panel/Stack");
         //}
 
-        public int MiProperty
-        {
-            get { return (int)GetValue(MiDepencyProperty); }
+        //public int MiProperty
+        //{
+        //    get { return (int)GetValue(MiDepencyProperty); }
 
-            set { SetValue(MiDepencyProperty, value); }
+        //    set { SetValue(MiDepencyProperty, value); }
 
-        }
+        //}
 
         public static readonly DependencyProperty MiDepencyProperty =
             DependencyProperty.Register("MiProperty", typeof(int), typeof(MainWindow), new PropertyMetadata(0));
+    }
 }
